@@ -1,4 +1,4 @@
-var logindb = require('../../logindb');
+var logindb = require('../../src/logindb');
 var errorlogin = "ERROR!!!"
 module.exports.indexGet = (req, res)=>{
     res.render('login');
